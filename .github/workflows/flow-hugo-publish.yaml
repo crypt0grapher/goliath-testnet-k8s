@@ -55,7 +55,7 @@ defaults:
 jobs:
   setup:
     name: Setup
-    runs-on: hiero-solo-linux-medium
+    runs-on: ubuntu-latest
     outputs:
       docs-build-label: ${{ steps.set-inputs.outputs.docs_build_label }}
       main-ref: ${{ steps.set-inputs.outputs.main_ref }}

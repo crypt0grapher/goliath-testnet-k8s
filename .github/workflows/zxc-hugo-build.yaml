@@ -52,7 +52,7 @@ defaults:
 jobs:
   build:
     name: Build
-    runs-on: hiero-solo-linux-large
+    runs-on: ubuntu-latest
     outputs:
       build_succeeded: ${{ steps.set-build-succeeded.outputs.build_succeeded }}
     steps:
