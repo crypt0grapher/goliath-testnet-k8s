@@ -495,3 +495,9 @@ deleteme.yaml
 /examples/running-solo-inside-cluster/.task-tmp
 /.codacy/cli.sh
 /.codacy/codacy.yaml
+
+# Local secrets, never committed (megaboss 2026-11-17, SEC-SOLO-CRED)
+.genesis-key
+.cloudflare-api
+.env.backup
+.wallets
